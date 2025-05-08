@@ -19,7 +19,7 @@ git clone https://github.com/your-username/FederatedCancerFL.git
 - `PathMNIST_federated_learning2.ipynb`: Train and evaluate a federated model.
 
 3. Python scripts:
- - DP.py: Simulate privacy-preserving federated learning results and generate comparative performance metrics across privacy levels (ε).
+ - `DP.py: Simulate privacy-preserving federated learning results and generate comparative performance metrics across privacy levels (ε).
 
 
 ## 🔐 Privacy
