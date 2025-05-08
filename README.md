@@ -12,3 +12,16 @@ This repository contains synthetic and benchmark datasets used in our research o
 ## 🚀 How to Use
 
 1. Clone this repo:
+git clone https://github.com/your-username/FederatedCancerFL.git
+
+2. Open notebooks:
+- `Synthetic Data.ipynb`: Generate and explore synthetic provincial data.
+- `PathMNIST_federated_learning2.ipynb`: Train and evaluate a federated model.
+
+## 🔐 Privacy
+
+We simulate differential privacy using DP-SGD (ε ≈ 1.0) and non-IID partitioning to reflect real-world deployments.
+
+## 📜 License
+
+MIT License
