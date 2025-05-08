@@ -67,7 +67,7 @@ round_accuracies = []
 global_model = CNN().to(device)
 
 for rnd in range(5):
-    print(f"\n🔐🌐 Federated Round {rnd+1} | 🔏 Differential Privacy Enabled")
+    print(f"\n Federated Round {rnd+1} | 🔏 Differential Privacy Enabled")
 
     local_weights = []
 
