@@ -1,4 +1,4 @@
-# Federated Learning for Cancer Detection
+# How Federated Learning Can Unlock Canada’s Public Health Potential
 
 This repository contains synthetic and benchmark datasets used in our research on privacy-preserving federated learning for cancer classification, as presented in our [RSIF submission].
 
