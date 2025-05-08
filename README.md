@@ -60,6 +60,36 @@ This dataset supports experiments comparing:
 - Federated Learning with Privacy (FL + DP)
 - Performance and fairness tradeoffs under heterogeneous data conditions
 
+## 🧪 Additional Dataset: PathMNIST (Benchmark)
+
+We also use the publicly available [PathMNIST](https://medmnist.com/) dataset from the MedMNIST v2 collection to benchmark federated learning under realistic histopathology data settings.
+
+PathMNIST includes 107,180 RGB images (28×28) of colorectal cancer tissue from 9 classes:
+
+- **0:** Adipose
+- **1:** Background
+- **2:** Debris
+- **3:** Lymphocytes
+- **4:** Mucus
+- **5:** Smooth Muscle
+- **6:** Normal Colon Mucosa
+- **7:** Cancer-Associated Stroma
+- **8:** Colorectal Adenocarcinoma Epithelium
+
+### Usage in This Project
+
+- Federated simulation is performed with **3 non-IID clients**.
+- Models include **ResNet-18** with and without **differential privacy**.
+- We evaluate:
+  - **Multi-class classification** (9 classes)
+  - **Binary reduction** (class 0 vs. class 1) for fast convergence
+- Performance metrics:
+  - **Accuracy**
+  - **Macro-F1 Score**
+  - **Differential privacy budget (ε ≈ 1.0)**
+
+The PathMNIST dataset is downloaded automatically via the `medmnist` Python package.
+
 
 ## 📜 License
 
