@@ -26,6 +26,10 @@ git clone https://github.com/your-username/FederatedCancerFL.git
 
 We simulate differential privacy using DP-SGD (ε ≈ 1.0) and non-IID partitioning to reflect real-world deployments.
 
+## 🧭 Equity Simulation
+`equity_bias_simulation.py` reproduces the fairness–performance trade-off discussed in Section 4.3 of the paper.  
+It simulates dropout and noisy-update scenarios among provinces to quantify accuracy and fairness degradation under unequal participation.
+
 # 📊 Dataset Description – Synthetic Cancer Detection
 
 This folder contains a synthetic dataset designed to support federated learning research focused on cancer detection across Canadian provinces. The data simulates **non-IID distributions** by applying province-specific bias to the cancer probability function.
