@@ -1,6 +1,6 @@
 # How Federated Learning Can Unlock Canada’s Public Health Potential
 
-This repository contains the code, datasets, and experimental workflows supporting our *Journal of the Royal Society Open Science* submission on **privacy-preserving and governance-aware federated learning** for Canadian healthcare applications.
+This repository contains the code, datasets, and experimental workflows supporting **privacy-preserving and governance-aware federated learning** for Canadian healthcare applications.
 
 ## 📂 Contents
 
