@@ -552,15 +552,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 🤝 Contributing
+## Results Interpretation and Reproducibility Statement.
 
-Contributions are welcome! Please:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+All quantitative results reported in this study are derived from controlled simulation experiments designed to evaluate the methodological feasibility and governance instrumentation of federated learning in a decentralized healthcare context. Except for the PathMNIST benchmark, all datasets are synthetically generated under explicitly stated assumptions regarding class prevalence, heterogeneity, and noise. Reported performance metrics represent mean values aggregated over multiple independent runs with randomized initialization.
+
+Due to stochastic training dynamics, synthetic data regeneration, thresholding effects, and environment-specific dependencies, individual executions of the accompanying reference code may yield performance metrics that differ from the reported averages. Such variation is expected and does not affect the comparative conclusions of the study, which focus on relative performance trends, governance impacts, and statistical significance rather than exact numerical replication.
+
+The provided code is intended as a transparent reference implementation of the proposed framework and experimental design, not as a deterministic reproduction pipeline for all reported numerical results.
 
 ---
 
