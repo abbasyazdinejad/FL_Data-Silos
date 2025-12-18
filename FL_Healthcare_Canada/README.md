@@ -1,4 +1,4 @@
-# FL Healthcare Canada: Federated Learning with AI Governance
+# Demo FL Healthcare Canada: Federated Learning with AI Governance
 
 **Breaking Interprovincial Data Silos: How Federated Learning Can Unlock Canada's Public Health Potential**
 
@@ -9,7 +9,7 @@
 Demo of implementation of the federated learning + AI governance framework for Canadian healthcare,
 ---
 
-## 🎯 Overview
+##  Overview
 
 This repository provides a **complete, production-ready implementation** of:
 
@@ -28,7 +28,7 @@ This repository provides a **complete, production-ready implementation** of:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Requirements
 
@@ -72,7 +72,7 @@ tqdm>=4.66.0
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Generate Data
 
@@ -401,35 +401,6 @@ FL_Healthcare_Canada/
 
 ---
 
-## 🎓 Key Modules
-
-### Data Module
-- **synthetic_generator.py**: Generates realistic provincial health data
-- **data_loader.py**: Federated data loading for tabular data
-- **pathmnist_loader.py**: Medical imaging dataset (107K images)
-
-### Federated Learning Module
-- **FedAvg**: Standard federated averaging (McMahan et al. 2017)
-- **FedProx**: Proximal term for heterogeneous data (Li et al. 2020)
-- **Aggregation**: 5 methods (weighted, median, secure, etc.)
-
-### Privacy Module
-- **Differential Privacy**: (ε, δ)-DP with Gaussian/Laplace mechanisms
-- **DP-SGD**: Privacy-preserving SGD optimizer
-- **Privacy Accounting**: RDP-based ε computation
-
-### Governance Module
-- **Consent**: SMART-on-FHIR compliant (5.6ms latency)
-- **Audit**: Hash-chained immutable logs (2.0ms latency)
-- **Fairness**: Bias detection (2.3% flags)
-- **Compliance**: PIPEDA, PHIPA, OCAP® checks
-
-### Evaluation Module
-- **Metrics**: Accuracy, AUC, F1, precision, recall
-- **Statistics**: Paired t-tests, CIs, effect sizes
-- **Visualization**: Confusion matrices, training curves
-
----
 
 ## 🔧 Configuration
 
@@ -470,9 +441,9 @@ print(f"Epsilon: {config.epsilon}")
 
 ---
 
-## 📊 Reproducing Specific Results
+## Reproducing Specific Results
 
-### Table 5 Results
+### Results
 
 #### Cancer Detection
 ```bash
@@ -509,7 +480,7 @@ print(f"95% CI: [{fl_stats['ci_95_lower']:.3f}, {fl_stats['ci_95_upper']:.3f}]")
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Unit Tests
 
@@ -544,7 +515,7 @@ verify_reproducibility(results1, results2, tolerance=1e-6)
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -575,21 +546,6 @@ sys.path.insert(0, '/path/to/FL_Healthcare_Canada')
 
 ---
 
-## 📖 Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{yazdinejad2025breaking,
-  title={Breaking Interprovincial Data Silos: How Federated Learning Can Unlock Canada's Public Health Potential},
-  author={Yazdinejad, Abbas and Kong, Jude},
-  journal={Manuscript},
-  year={2025}
-}
-```
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -608,51 +564,4 @@ Contributions are welcome! Please:
 
 ---
 
-## 💬 Contact
 
-**Abbas Yazdinejad** - Primary Contact  
-**Jude Kong** - Principal Investigator
-
-For questions or collaboration inquiries, please open an issue on GitHub.
-
----
-
-## 🙏 Acknowledgments
-
-- Canadian Institute for Health Information (CIHI) for demographic data
-- PathMNIST dataset creators
-- PyTorch and Opacus teams
-- Federal privacy regulations (PIPEDA)
-- Provincial regulations (PHIPA)
-- Indigenous data sovereignty principles (OCAP®)
-
----
-
-## 📚 Related Work
-
-### Federated Learning
-- McMahan et al. 2017: Communication-Efficient Learning
-- Li et al. 2020: Federated Optimization in Heterogeneous Networks
-
-### Differential Privacy
-- Abadi et al. 2016: Deep Learning with Differential Privacy
-- Dwork & Roth 2014: Algorithmic Foundations of DP
-
-### Healthcare AI
-- Rieke et al. 2020: The Future of Digital Health with Federated Learning
-- Sheller et al. 2020: Federated learning in medicine
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Support for time-series forecasting
-- [ ] Integration with FHIR servers
-- [ ] Real-world deployment guide
-- [ ] Additional aggregation methods
-- [ ] Enhanced privacy mechanisms
-- [ ] Dashboard for monitoring
-
----
-
-**Built with ❤️ for advancing Canadian healthcare through privacy-preserving AI**
