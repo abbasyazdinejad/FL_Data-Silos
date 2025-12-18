@@ -39,7 +39,7 @@ No identifiable or clinical data are included in this repository.
 
 ## 🧭 Equity Simulation
 
-`equity_bias_simulation.py` reproduces the fairness–performance trade-off discussed in Section 4.3 of the paper.  
+`equity_bias_simulation.py` reproduces the fairness–performance trade-off. 
 It simulates dropout and noisy-update scenarios among provinces to quantify how unequal participation affects model accuracy and fairness.
 
 ---
@@ -100,6 +100,13 @@ This repository supports comparison of:
 The code is intended to illustrate the proposed federated learning framework, governance instrumentation, and experimental design.
 Due to stochastic training, synthetic data generation, and environment-specific dependencies, exact numerical reproduction of all reported results is not guaranteed.
 ---
+
+## Results Interpretation and Reproducibility Statement.
+All quantitative results reported in this study are derived from controlled simulation experiments designed to evaluate the methodological feasibility and governance instrumentation of federated learning in a decentralized healthcare context. Except for the PathMNIST benchmark, all datasets are synthetically generated under explicitly stated assumptions regarding class prevalence, heterogeneity, and noise. Reported performance metrics represent mean values aggregated over multiple independent runs with randomized initialization.
+
+Due to stochastic training dynamics, synthetic data regeneration, thresholding effects, and environment-specific dependencies, individual executions of the accompanying reference code may yield performance metrics that differ from the reported averages. Such variation is expected and does not affect the comparative conclusions of the study, which focus on relative performance trends, governance impacts, and statistical significance rather than exact numerical replication.
+
+The provided demo-code is intended as a transparent reference implementation of the proposed framework and experimental design, not as a deterministic reproduction pipeline for all reported numerical results.
 
 ## 📜 License
 MIT License © 2025
