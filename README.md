@@ -101,10 +101,3 @@ This repository supports comparison of:
 MIT License © 2025
 
 ---
-
-### ✉️ Citation
-
-If you use this repository, please cite:
-
-> Yazdinejad A., et al. “Federated Learning and Governance for Privacy-Preserving AI in Canadian Healthcare.” *Journal of the Royal Society Open Science*, 2025.  
-> [link pending publication]
