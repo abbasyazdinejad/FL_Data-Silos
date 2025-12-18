@@ -95,11 +95,9 @@ This repository supports comparison of:
 - Fairness and performance trade-offs under non-IID conditions  
 - Equity implications of participation bias across jurisdictions
   
-This repository provides supporting code and example simulations for the study
+- This repository provides supporting code and example simulations for the study
 “Breaking Interprovincial Data Silos: How Federated Learning Can Unlock Canada’s Public Health Potential.”
-
 The code is intended to illustrate the proposed federated learning framework, governance instrumentation, and experimental design.
-
 Due to stochastic training, synthetic data generation, and environment-specific dependencies, exact numerical reproduction of all reported results is not guaranteed.
 ---
 
