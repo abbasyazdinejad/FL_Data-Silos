@@ -94,7 +94,7 @@ This repository supports comparison of:
 - Federated Learning + Differential Privacy  
 - Fairness and performance trade-offs under non-IID conditions  
 - Equity implications of participation bias across jurisdictions
-  
+- This is v1.0-rsos
 - This repository provides supporting code and example simulations for the study
 “Breaking Interprovincial Data Silos: How Federated Learning Can Unlock Canada’s Public Health Potential.”
 The code is intended to illustrate the proposed federated learning framework, governance instrumentation, and experimental design.
